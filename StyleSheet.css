@@ -1,3 +1,16 @@
 .title {
 	color: blue
 }
+.menuitem {
+	border: 2px solid rgb(153, 144, 144);
+	background-color: rgb(153, 144, 144);
+	cursor: pointer;
+	padding: 10px;
+}
+.menuitem:hover {
+	background-color: rgb(43, 88, 194)
+}
+.menuitem:first-child {
+	font-weight: bold;
+	background-color: rgb(87, 145, 230)
+}
