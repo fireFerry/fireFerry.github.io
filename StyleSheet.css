@@ -1,5 +1,6 @@
 .title {
-	color: blue
+	color: blue;
+	font-family: Segoe UI;
 }
 .menuitem {
 	border: 2px solid rgb(153, 144, 144);
