@@ -19,11 +19,21 @@
 .menuitem:hover {
 	background-color: rgb(22, 171, 99)
 }
-.menuitem:first-child {
-	font-weight: bold;
+.menuitemfirst {
+	font-weight: bold !important;
 	background-color: rgba(92, 255, 176, 0.8);
+	border: 2px solid rgba(153, 144, 144, 0.3);
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	height: auto;
+	width: 200px;
+	margin: 4px;
+	color: #dcddde;
+	display: block;
+	float: left;
 }
-.menuitem:first-child:hover {
+.menuitemfirst:hover {
 	background-color: rgba(92, 255, 176, 0.9);
 }
 .menulist {
