@@ -1,7 +1,7 @@
 .title {
 	color: rgb(87, 145, 230);
 	font-family: Segoe UI;
-	font-size: 25px;
+	font-size: 100px;
 	text-align: center;
 }
 .menuitem {
@@ -49,10 +49,17 @@ body {
 }
 .normal {
 	color: #dcddde;
+	font-family: Segoe UI;
 }
 .menuitemlink {
 	display: block;
 	color: #dcddde;
 	text-align: center;
 	text-decoration: none;
+}
+.textcenter {
+	text-align: center;
+}
+.center {
+	align: center;
 }
